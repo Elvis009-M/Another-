@@ -1,0 +1,81 @@
+/*  -----------------------   STYLING OF TAGS   --------------------------------*/
+
+body {
+margin: 3px ;
+font-size : 300% ;
+}
+
+header {
+background:linear-gradient(45deg,purple,yellow ) ;
+padding: 2% ;
+margin: 3px ;
+font-size: 150%  ;
+text-align: center ;
+font-weight: bold ;
+border-radius: 5% ;
+box-shadow: 3px 3px 3px black  ;
+}
+
+footer {
+background:linear-gradient(45deg,purple,yellow ) ;
+padding: 1% ;
+font-size: 100%  ;
+font-weight: bold ;
+border-radius: 1% ;
+box-shadow: 2px 2px 1px black  ;
+float: bottom ;
+}
+
+
+h2 {
+text-align : center ;
+}
+
+
+
+
+
+/*  -----------------------   STYLING OF IDS   --------------------------------*/
+
+#navbar {
+background:linear-gradient(45deg,purple,yellow ) ;
+padding: 1% ;
+margin: 1% ;
+font-size: 120%  ;
+text-align: center ;
+font-weight: bold ;
+border-radius: 5% ;
+}
+
+
+
+
+
+
+/*  -----------------------   STYLING OF CLASSES   --------------------------------*/
+
+.navlinks {
+text-decoration: none ;
+padding: 1% ;
+color : black ;
+}
+.navlinks:hover {
+background-color: purple ;
+color: yellow ;
+}
+
+
+
+
+/* ----- STYLING OF MEDIA QUERIES  ----- */
+
+@media screen and ( min-width : 1024px ){
+    body {
+        background-color : black ;
+    }
+}
+
+
+
+
+
